@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "./styles.css"; // Importing the styles.css file
-
+import Header from "./components/Header"; // Importing the Header component
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <h1>Welcome to Moviepur</h1>
-      </header>
+      <div className="container">
+        <Header></Header>
+      </div>
       <footer>
         <p className="footer">Footer content here</p>
       </footer>
